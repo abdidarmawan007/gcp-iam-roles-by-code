@@ -1,9 +1,0 @@
-# NOTE: command run = gcloud iam roles create viewer --project my-project-id --file my-role-definition.yaml
-title: "Storage Object Get Put only"
-description: "gcs get and put only can not delete object"
-stage: "GA"
-includedPermissions:
-- resourcemanager.projects.get
-- storage.objects.create
-- storage.objects.get
-- storage.objects.list
