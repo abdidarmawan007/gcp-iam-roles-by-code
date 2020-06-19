@@ -1,4 +1,3 @@
-# NOTE: command run = gcloud iam roles create viewer --project my-project-id --file my-role-definition.yaml
 title: "Cloud SQL DBA"
 description: "cloud sql full access but no delete db"
 stage: "GA"
